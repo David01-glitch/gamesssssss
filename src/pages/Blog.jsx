@@ -106,11 +106,16 @@ export default function Blog() {
                   className="h-52 w-full object-cover md:h-auto md:w-64"
                 />
                 <div className="p-6 md:flex-1">
-                  <div className="mb-1 flex items-center gap-3 text-xs">
+                  <div className="mb-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs">
                     <span className="font-semibold uppercase tracking-wide text-terracotta">{a.category}</span>
                     <time dateTime={a.date} className="text-ink/60">
                       {new Date(a.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
                     </time>
+                    {a.author && (
+                      <span className="text-ink/60">
+                        By <span className="font-medium text-ink/80">{a.author}</span>
+                      </span>
+                    )}
                   </div>
                   <h2 className="text-2xl">{a.title}</h2>
                   <p className="mt-2 text-ink/85">{a.excerpt}</p>

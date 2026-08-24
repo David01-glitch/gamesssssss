@@ -1,6 +1,7 @@
 import Seo from '../components/Seo.jsx'
 import PageHeader from '../components/PageHeader.jsx'
 import { SITE } from '../data/site.js'
+import { AUTHOR } from '../data/content.js'
 
 export default function About() {
   return (
@@ -25,6 +26,39 @@ export default function About() {
           complicated rules lectures.
         </p>
 
+        <h2>Editorial team</h2>
+        <p>
+          Every guide on this site is researched and written by the <strong>{AUTHOR.name}</strong>.
+          {' '}{AUTHOR.bio}
+        </p>
+        <p>
+          We are a small team based in the United States. Our editors have played the games they
+          write about — often for years — before publishing. When we do not know something, we say
+          so and either learn it firsthand or leave it out.
+        </p>
+
+        <h2>Editorial process</h2>
+        <p>
+          Every guide follows the same three-step process before it appears on the site:
+        </p>
+        <ol>
+          <li>
+            <strong>Play the game.</strong> Nobody writes about a game they have not played through
+            at least a full round with real people. Rules are checked against the manufacturer\'s
+            current rulebook, not from memory.
+          </li>
+          <li>
+            <strong>Draft with specifics.</strong> Every guide lists the actual equipment, player
+            counts, space requirements, and any weather or age considerations we ran into. We avoid
+            invented statistics and superlatives like &quot;the best&quot; or &quot;#1 rated&quot;.
+          </li>
+          <li>
+            <strong>Second-read for honesty.</strong> A second editor reviews for anything that
+            sounds like marketing, any claim we cannot back up, or any advice that would only work
+            in ideal conditions. We fix or remove it.
+          </li>
+        </ol>
+
         <h2>Our focus on indoor and outdoor games</h2>
         <p>
           Every game has its setting. Indoor games shine on rainy days and quiet evenings; outdoor
@@ -44,8 +78,9 @@ export default function About() {
         <h2>Editorial philosophy</h2>
         <p>
           We believe good game writing is honest and specific. We do not promise that a game is
-          “the best” or right for everyone. When a game needs space, equipment, or dry weather, we
-          say so plainly. We would rather publish fewer, clearer guides than a flood of thin content.
+          &quot;the best&quot; or right for everyone. When a game needs space, equipment, or dry
+          weather, we say so plainly. We would rather publish fewer, clearer guides than a flood of
+          thin content.
         </p>
 
         <h2>How our content is presented</h2>
@@ -56,15 +91,23 @@ export default function About() {
           we store and serve locally.
         </p>
 
-        <h2>Our commitment</h2>
+        <h2>Independence and funding</h2>
         <p>
-          We are committed to useful, original information and to being transparent about who we are
-          and how to reach us. We do not invent credentials, awards, or statistics, and we do not
-          publish fake reviews or testimonials.
+          Game Time Guide is an independent publication. We do not sell games or take sponsored
+          placements dressed up as editorial. Where we may earn a small commission — for example
+          through display advertising or affiliate links — we mark it clearly and never let it
+          change what we recommend or how we describe a product.
+        </p>
+
+        <h2>Corrections</h2>
+        <p>
+          If you spot an error — a wrong rule, an outdated fact, a broken link — please email us.
+          We correct promptly and note the change at the bottom of the affected article when the
+          fix is material.
         </p>
 
         <h2>Contact</h2>
-        <p>Questions, suggestions, or corrections are always welcome.</p>
+        <p>Questions, suggestions, corrections, or introductions are always welcome.</p>
         <ul>
           <li>Email: <a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
           <li>Phone: <a href={`tel:${SITE.phoneHref}`}>{SITE.phone}</a></li>

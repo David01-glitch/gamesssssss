@@ -30,9 +30,8 @@ export default function Privacy() {
         <h2>3. Information You Provide</h2>
         <p>
           If you contact us by email, phone, or through the contact form (which opens your own email
-          app), you may share your name, email address, and the contents of your message. If you use
-          the newsletter form, you may share your email address. We use this information only to
-          respond to you or to fulfill the request you made.
+          app), you may share your name, email address, and the contents of your message. We use
+          this information only to respond to you or to fulfill the request you made.
         </p>
 
         <h2>4. Automatically Collected Information</h2>

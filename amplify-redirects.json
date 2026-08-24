@@ -8,6 +8,5 @@
   { "source": "/contact",       "target": "/contact.html",       "status": "200", "condition": null },
   { "source": "/privacy",       "target": "/privacy.html",       "status": "200", "condition": null },
   { "source": "/terms",         "target": "/terms.html",         "status": "200", "condition": null },
-  { "source": "/refund",        "target": "/refund.html",        "status": "200", "condition": null },
   { "source": "/<*>",           "target": "/404.html",           "status": "404", "condition": null }
 ]

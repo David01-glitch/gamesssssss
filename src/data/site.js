@@ -35,5 +35,4 @@ export const FOOTER_LINKS = [
   { label: 'Contact', to: '/contact' },
   { label: 'Privacy', to: '/privacy' },
   { label: 'Terms', to: '/terms' },
-  { label: 'Refund', to: '/refund' },
 ]

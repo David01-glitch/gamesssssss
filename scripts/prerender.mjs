@@ -16,7 +16,7 @@ const SITE_URL = (process.env.VITE_SITE_URL || 'https://www.example.com').replac
 
 const ROUTES = [
   '/', '/about', '/indoor-games', '/outdoor-games', '/game-guides', '/community',
-  '/blog', '/contact', '/privacy', '/terms', '/refund',
+  '/blog', '/contact', '/privacy', '/terms',
 ]
 const NOTFOUND = '/__404__'
 
@@ -82,7 +82,7 @@ server.close()
 
 // ── sitemap.xml + robots.txt with the real domain ──
 const today = new Date().toISOString().slice(0, 10)
-const urls = ['/', '/about', '/indoor-games', '/outdoor-games', '/game-guides', '/community', '/blog', '/contact', '/privacy', '/terms', '/refund']
+const urls = ['/', '/about', '/indoor-games', '/outdoor-games', '/game-guides', '/community', '/blog', '/contact', '/privacy', '/terms']
 const sitemap =
   '<?xml version="1.0" encoding="UTF-8"?>\n' +
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +

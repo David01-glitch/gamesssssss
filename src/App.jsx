@@ -11,7 +11,6 @@ import Blog from './pages/Blog.jsx'
 import Contact from './pages/Contact.jsx'
 import Privacy from './pages/Privacy.jsx'
 import Terms from './pages/Terms.jsx'
-import Refund from './pages/Refund.jsx'
 import NotFound from './pages/NotFound.jsx'
 import { trackPageView } from './utils/analytics.js'
 
@@ -41,7 +40,6 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
-        <Route path="/refund" element={<Refund />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
