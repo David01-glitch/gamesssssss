@@ -1,21 +1,34 @@
 # Image Sources & Licenses
 
-All photographs are real, downloaded locally, and bundled at build time — no runtime hotlinks.
-Sourced from Wikimedia Commons under free licenses that permit commercial use.
+All photographs on this site are **CC0** or **Public Domain** — no attribution is
+required for any use, including commercial. Files are downloaded locally and
+bundled at build time (no runtime hotlinks).
 
-| File | Source (Wikimedia Commons) | Creator | License |
+Sources documented below for transparency, not because attribution is legally required.
+
+| File | Source (Wikimedia Commons) | License | Notes |
 |---|---|---|---|
-| `hero/hero.jpg` | https://commons.wikimedia.org/wiki/File:Alaskaspiel.jpg | Peng ( talk ) 10:47, 28 October 2009 (UTC) | CC BY-SA 3.0 |
-| `indoor/indoor.jpg` | https://commons.wikimedia.org/wiki/File:Concours_de_createurs_de_jeu_de_societe_de_Besancon.JPG | The original uploader was FH at French Wikipedia . | CC BY-SA 3.0 |
-| `outdoor/outdoor.jpg` | https://commons.wikimedia.org/wiki/File:016.Vacanta-pentrecuta-in-Moldova-1976.jpg | uncredited | CC BY-SA 3.0 ro |
-| `games/board.jpg` | https://commons.wikimedia.org/wiki/File:Alaskaspiel.jpg | Peng ( talk ) 10:47, 28 October 2009 (UTC) | CC BY-SA 3.0 |
-| `games/card.jpg` | https://commons.wikimedia.org/wiki/File:Admission_ticket_to_John_Morgan_lecture_1770.jpg | Unknown author Unknown author | Public domain |
-| `games/backyard.jpg` | https://commons.wikimedia.org/wiki/File:2023_FIBA_World_Cup_Fan_Zone_-_Cornhole_Game.jpg | Griff88 | CC BY-SA 4.0 |
-| `games/lawn.jpg` | https://commons.wikimedia.org/wiki/File:Boccia.jpg | Oskarlin | CC BY-SA 2.0 |
-| `community/community.jpg` | https://commons.wikimedia.org/wiki/File:2010WDO_Banciao_A_Competiiton_from_Local_Communities.jpg | Rico Shen | CC BY-SA 4.0 |
-| `blog/party.jpg` | https://commons.wikimedia.org/wiki/File:Jenga_1.jpg | Matěj Baťha | CC BY-SA 2.5 |
-| `blog/chess.jpg` | https://commons.wikimedia.org/wiki/File:ChessWorldChamps18862008.jpg | Biglobiglo ( talk ) ( Uploads ) | CC BY-SA 3.0 |
-| `blog/dominoes.jpg` | https://commons.wikimedia.org/wiki/File:Bukidomino.jpg | Roland Scheicher | CC0 |
-| `blog/frisbee.jpg` | https://commons.wikimedia.org/wiki/File:Ultimate_Frisbee_Birthplace_Plaque,_Maplewood,_NJ.jpg | Unknown | CC BY-SA 2.5 |
+| `hero/hero.jpg` | https://commons.wikimedia.org/wiki/File:IBM_chess_tournament_1969_Bestanddeelnr_922-6476.jpg | **CC0** | Dutch National Archives — IBM chess tournament, 1969 |
+| `indoor/indoor.jpg` | https://commons.wikimedia.org/wiki/File:Chess_and_backgammon_board_MET_3668.jpg | **CC0** | Metropolitan Museum of Art — chess and backgammon board |
+| `outdoor/outdoor.jpg` | https://commons.wikimedia.org/wiki/File:North_Side_beach_house_volleyball_nets.jpeg | **CC0** | Public beach volleyball nets |
+| `games/board.jpg` | https://commons.wikimedia.org/wiki/File:Modern_Fianchetto_Setup._Chess_game_Staunton_No._6.jpg | **CC0** | Chess board mid-game (Staunton pieces) |
+| `games/card.jpg` | https://commons.wikimedia.org/wiki/File:A_Couple_Playing_Cards,_with_a_Serving_Woman_MET_DT3101.jpg | **CC0** | Metropolitan Museum of Art — playing cards painting |
+| `games/backyard.jpg` | https://commons.wikimedia.org/wiki/File:Cornhole_game.jpg | **Public Domain** | Cornhole game (author released to PD) |
+| `games/lawn.jpg` | https://commons.wikimedia.org/wiki/File:Concours_de_Pétanque_(13985062403).jpg | **CC0** | Pétanque tournament (lawn bowling) |
+| `community/community.jpg` | https://commons.wikimedia.org/wiki/File:Picnic_by_the_Inlet_-_Maurice_Prendergast,_MET_DP165107.jpg | **CC0** | Metropolitan Museum of Art — Prendergast picnic painting |
+| `blog/party.jpg` | https://commons.wikimedia.org/wiki/File:Wikimania_2015-Wednesday-Volunteers_play_Weasel-Jenga_(2).jpg | **CC0** | Volunteers playing Jenga at Wikimania 2015 |
+| `blog/chess.jpg` | https://commons.wikimedia.org/wiki/File:Chess_Piece_in_the_Form_of_a_Knight_MET_DP108851.jpg | **CC0** | Metropolitan Museum of Art — chess knight piece |
+| `blog/dominoes.jpg` | https://commons.wikimedia.org/wiki/File:Bukidomino.jpg | **CC0** | Roland Scheicher — dominoes tiles |
+| `blog/frisbee.jpg` | https://commons.wikimedia.org/wiki/File:AustralianShepardFrisbee.jpg | **CC0** | Australian shepherd catching a frisbee |
 
-> CC-BY / CC-BY-SA require attribution (creator + source above). CC0 / Public Domain require none.
+## What CC0 and Public Domain mean
+
+- **CC0 (Creative Commons Zero)** — the creator has waived every possible right. You
+  can use, remix, share, and sell the work commercially without asking, without
+  credit, and without any legal obligation. Effectively "no rights reserved".
+- **Public Domain** — the work is not protected by copyright at all, either because
+  it was never copyrighted, the copyright has expired, or the creator dedicated it
+  to the public domain. Same practical result as CC0.
+
+Both licenses have zero risk of copyright claims, takedown requests, or lawsuits
+against this site or its readers.
