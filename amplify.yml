@@ -1,9 +1,5 @@
 # AWS Amplify Hosting build settings (static deploy).
 # Amplify serves the prerendered files in dist/ directly — server.js is NOT used here.
-#
-# IMPORTANT: In the Amplify console → App settings → Environment variables,
-# set VITE_SITE_URL to your real domain (e.g. https://www.your-domain.com).
-# It is baked into canonical URLs, Open Graph tags, sitemap.xml, and robots.txt at build time.
 version: 1
 frontend:
   phases:
@@ -13,6 +9,10 @@ frontend:
         - npm ci
         # Chromium is needed for the post-build prerender step.
         - npx playwright install --with-deps chromium || npx playwright install chromium
+        # Ensure VITE_SITE_URL is set so canonical URLs, OG tags, sitemap, robots
+        # are baked with the real site URL — never a placeholder.
+        - export VITE_SITE_URL="${VITE_SITE_URL:-https://main.d3qo2lelzu6w5v.amplifyapp.com}"
+        - echo "Building with VITE_SITE_URL=$VITE_SITE_URL"
     build:
       commands:
         - npm run build

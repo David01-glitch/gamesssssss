@@ -1,0 +1,7 @@
+# Security contact for gametimeguide site
+# Per RFC 9116 — https://securitytxt.org/
+
+Contact: mailto:gametimeguide@gmail.com
+Expires: 2027-12-31T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://main.d3qo2lelzu6w5v.amplifyapp.com/.well-known/security.txt

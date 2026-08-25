@@ -1,0 +1,7 @@
+# ads.txt for gametimeguide site — Authorized Digital Sellers
+# https://iabtechlab.com/wp-content/uploads/2019/03/IAB-OpenRTB-Ads.txt-Public-Spec-1.0.2.pdf
+#
+# No ad partners configured yet. When you sign up with an ad network,
+# add lines like:
+#     google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# per that network's instructions.

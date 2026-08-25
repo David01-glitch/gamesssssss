@@ -5,8 +5,8 @@
   "keywords": ["games", "indoor games", "outdoor games", "recreation", "react", "vite", "express"],
   "env": {
     "VITE_SITE_URL": {
-      "description": "Your production domain, e.g. https://www.yoursite.com (used for canonical URLs and sitemap).",
-      "value": "https://www.example.com",
+      "description": "Your production domain, e.g. https://main.d3qo2lelzu6w5v.amplifyapp.com (used for canonical URLs and sitemap).",
+      "value": "https://main.d3qo2lelzu6w5v.amplifyapp.com",
       "required": true
     },
     "NODE_ENV": {

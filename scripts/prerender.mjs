@@ -12,7 +12,7 @@ import { fileURLToPath } from 'node:url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DIST = path.join(__dirname, '..', 'dist')
 const PUBLIC = path.join(__dirname, '..', 'public')
-const SITE_URL = (process.env.VITE_SITE_URL || 'https://www.example.com').replace(/\/$/, '')
+const SITE_URL = (process.env.VITE_SITE_URL || 'https://main.d3qo2lelzu6w5v.amplifyapp.com').replace(/\/$/, '')
 
 const ROUTES = [
   '/', '/about', '/indoor-games', '/outdoor-games', '/game-guides', '/community',
