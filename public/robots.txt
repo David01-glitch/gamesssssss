@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap URL is written with the production domain at build time.
-Sitemap: https://www.example.com/sitemap.xml
+Sitemap: https://main.d3qo2lelzu6w5v.amplifyapp.com/sitemap.xml
