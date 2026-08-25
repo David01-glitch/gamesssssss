@@ -17,7 +17,7 @@ export const SITE = {
   // Set VITE_SITE_URL to your real production domain before deploying.
   url:
     (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_SITE_URL) ||
-    'https://www.example.com',
+    'https://main.d3qo2lelzu6w5v.amplifyapp.com',
 }
 
 export const NAV = [

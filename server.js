@@ -39,5 +39,5 @@ app.use((_req, res) => {
 })
 
 app.listen(PORT, () => {
-  console.log(`Senior Pet Companions running on http://localhost:${PORT}`)
+  console.log(`Game Time Guide running on http://localhost:${PORT}`)
 })
